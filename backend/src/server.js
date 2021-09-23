@@ -16,9 +16,11 @@ io.on('connection', socket => {
     connectedUsers[user] = socket.id; 
 }) 
 
-mongoose.connect('mongodb+srv://omnistack:omnistack@cluster0-7yc1u.mongodb.net/omnistack8?retryWrites=true&w=majority', {
-    useNewUrlParser: true
+mongoose.connect('mongodb+srv://teste-tindev:tKiGOFpcfxxMX8uI@cluster0.31uil.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true 
 });
+
 
 app.use((req, res, next) => {
     req.io = io;
