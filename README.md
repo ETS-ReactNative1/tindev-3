@@ -12,3 +12,15 @@ This app contains:
 
 - user access with github username
 - sockets.io (real time match)
+
+
+
+#backend 
+
+$ yarn 
+$ yarn dev
+
+#frontend
+
+$ yarn
+$ yarn start
