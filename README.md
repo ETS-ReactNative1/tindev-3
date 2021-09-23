@@ -15,12 +15,12 @@ This app contains:
 
 
 
-#backend 
+### run backend 
 
-$ yarn 
+$ yarn <br />
 $ yarn dev
 
-#frontend
+### run frontend
 
-$ yarn
+$ yarn<br />
 $ yarn start
